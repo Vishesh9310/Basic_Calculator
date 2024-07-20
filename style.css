@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(245, 245, 220, 0.69);
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    text-align: center;
+    color: blue;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+section{
+    padding-top: 20px;
+}
+
+#calculator{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    width: fit-content;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+input{
+    margin-top: 5px;
+    padding: 5px;
+    width:220px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 16px;
+    text-align: right;
+    border: 2px solid rgba(0, 0, 0, 0.429);
+}
+
+button{
+    border: 2px solid rgba(0, 0, 0, 0.429);
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#keyboard{
+    display: grid;
+    padding: 5px;
+    grid-template-columns:repeat(4,rem);
+}
+
+.row{
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+.grey{
+    background-color: rgb(168, 167, 167);
+}
+
+.orange{
+    background-color: rgb(255, 153, 0);
+}
+
+.dark-grey{
+    background-color: rgb(92, 89, 89);
+}
+
+.grey:hover{
+    background-color: rgba(168, 167, 167, 0.4) ;
+}
+
+.orange:hover{
+    background-color: rgba(255, 153, 0, 0.4);
+}
+
+.dark-grey:hover{
+    background-color: rgba(92, 89, 89, 0.4);
+}
