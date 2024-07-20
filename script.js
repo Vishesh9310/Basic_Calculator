@@ -6,12 +6,13 @@ Array.from(buttons).forEach((button)=>{
       string = eval(string);
       document.querySelector('input').value = string;
     }
+    else if(e.target.innerHTML== 'DEL'){
+        string=string.slice(0, -1); 
+        document.querySelector('input').value = string;
+    }
     else if(e.target.innerHTML == 'AC'){
       string = ""
       document.querySelector('input').value = string;
-    }else if(e.target.innerHTML== 'DEL'){
-        string=string.slice(0, -1); 
-        document.querySelector('input').value = string;
     }
     else{ 
     console.log(e.target)
