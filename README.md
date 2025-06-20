@@ -29,7 +29,7 @@ calculator/
 5. How to Run
 a. Clone this repository:
    //bash
-   git clone https://github.com/your-username/calculator.git
+   git clone https://github.com/Vishesh9310/Basic_Calculator.git
 
 b. Open the folder in your code editor.
 c. Open `index.html` in your browser to view and use the calculator.
